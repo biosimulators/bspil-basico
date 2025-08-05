@@ -1,0 +1,13 @@
+[project]
+name = "bspil-basico"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "copasi-basico>=0.84",
+    "myplotlib>=1.6.0",
+    "numpy>=2.2.6",
+    "pandas>=2.3.0",
+    "process-bigraph>=0.0.38",
+]
