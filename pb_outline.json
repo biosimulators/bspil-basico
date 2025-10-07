@@ -1,0 +1,24 @@
+{
+  "steps": [
+    {
+      "name": "biomodels_downloadFromStep",
+      "module": "bspil_basico.foundation.foundationBiomodels",
+      "inputs": "",
+      "outputs": ""
+    },
+    {
+      "name": "Legacy_RunBasicCPSTimeCourseSimulation",
+      "module": "bspil_basico.legacy.run_basic_simulation",
+      "inputs": "",
+      "outputs": ""
+    }
+  ],
+  "processes": [
+    {
+      "name": "Legacy_RunBasicSBMLTimeCourseSimulation",
+      "module": "bspil_basico.legacy.run_basic_simulation",
+      "inputs": "",
+      "outputs": ""
+    }
+  ]
+}
