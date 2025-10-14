@@ -9,7 +9,13 @@
     {
       "name": "Legacy_RunBasicCPSTimeCourseSimulation",
       "module": "bspil_basico.legacy.run_basic_simulation",
-      "inputs": "",
+      "inputs": "num_data_points;starting_time;duration",
+      "outputs": ""
+    },
+    {
+      "name": "TelluriumTimeCourseStep",
+      "module": "bspil_basico.legacy.tellerium",
+      "inputs": "num_data_points;starting_time;end_time",
       "outputs": ""
     }
   ],
