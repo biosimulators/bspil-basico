@@ -1,5 +1,5 @@
 version = 1
-revision = 3
+revision = 2
 requires-python = ">=3.10"
 resolution-markers = [
     "python_full_version >= '3.12'",
@@ -69,6 +69,7 @@ dependencies = [
     { name = "numpy" },
     { name = "pandas" },
     { name = "process-bigraph" },
+    { name = "python-libsbml" },
     { name = "tellurium" },
 ]
 
@@ -80,6 +81,7 @@ requires-dist = [
     { name = "numpy", specifier = ">=2.2.6" },
     { name = "pandas", specifier = ">=2.3.0" },
     { name = "process-bigraph", specifier = ">=0.0.38" },
+    { name = "python-libsbml", specifier = ">=5.20,<6.0" },
     { name = "tellurium", specifier = ">=2.2.11.1" },
 ]
 
